@@ -853,7 +853,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>alcid=5 -v  igfxonln=1</string>
+				<string>alcid=5 -v  igfxonln=1 keepsyms=1 dark=0</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
