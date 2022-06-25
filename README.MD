@@ -4,16 +4,16 @@
 
 ### 我的电脑配置：
 
-| 硬件名称 | 型号                 |
-|------|--------------------|
-| CPU  | i5-10500           |
-| 主板   | 昂达H410D4 IPC ITX主板 |
-| 内存   | 金士顿 32g 2666✖️2    |
-| 硬盘   | WD sn770 nvme 1T   |
-| 网卡   | Bcm94360cs2        |
-| 机箱   | sktc tx03          |
-| 电源   | 尚巡 150W 华硕便携       |
-| 散热   | 鱼巢z22              |
+| 硬件名称 | 型号                      |
+|------|-------------------------|
+| CPU  | i5-10500                |
+| 主板   | 昂达H410D4 IPC ITX主板      |
+| 内存   | 金士顿 32g 2666✖️2         |
+| 硬盘   | WD sn770 nvme 1T        |
+| 网卡   | Bcm94360cs2             |
+| 机箱   | sktc tx03               |
+| 电源   | 尚巡 150W 华硕便携            |
+| 散热   | 鱼巢z22   + 一个 8010风扇散热机箱 |
 
 ### bios 设置：
 + 关 `cfg lock` : `Advanced -> Power & Performance -> CPU - Power Management Control -> CPU Lock Configuration -> CFG Lock` 改成 `Disabled`
