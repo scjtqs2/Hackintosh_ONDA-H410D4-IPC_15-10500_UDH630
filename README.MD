@@ -16,15 +16,16 @@
 | 散热   | 鱼巢z22         |
 
 ### bios 设置：
-+ 关 `cfg lock`
-+ 关 `csm`
-+ 关 `quite boot`
-+ 关 `vt-d`
-+ 关 安全启动
-+ 预显存 由 `32M` 改成 `64M`
-+ apeture size 由 `256M` 改 `1024M`
-+ DVMT Memory 改成 `Max`
-+ 开 `Above 4GB decoding`
++ 关 `cfg lock` : `Advanced -> Power & Performance -> CPU - Power Management Control -> CPU Lock Configuration -> CFG Lock` 改成 `Disabled`
++ 关 `csm`：`Advanced -> CSM Configuration -> CSM Support` 改成 `Disabled`
++ 关 `安全启动`：`Advanced -> Trusted Computing -> Security Device Support`，`Security -> Secure Boot -> Secure Boot`, `Boot -> Quiet Boot`,`Boot -> Fast Boot` 改成 `Disabled`
++ 关 `vt-d`：`Chipset -> System Agent (SA) Configuration -> VT-d` 改成 `Disabled`
++ 预显存 由 `32M` 改成 `64M`：`Chipset -> System Agent (SA) Configuration -> Graphics Configuration -> DVMT Pre-Allocated` 改成 `64M`
++ apeture size 由 `256M` 改 `1024M`：`Chipset -> System Agent (SA) Configuration -> Graphics Configuration -> Aperture Size` 改成 `1024M`
++ DVMT Memory 改成 `Max`: `Chipset -> System Agent (SA) Configuration -> Graphics Configuration -> DVMT Total Gfx Mem` 改成 `MAX`
++ Primary Display 改成 `IGFX`: `Chipset -> System Agent (SA) Configuration -> Graphics Configuration -> Primary Display` 改成 `IGFX`
++ Internal Graphics 改成 `Enabled`: `Chipset -> System Agent (SA) Configuration -> Graphics Configuration -> Internal Graphics` 改成 `Enabled`
++ 开 `Above 4GB MMIO BIOS assignment`：`Chipset -> System Agent (SA) Configuration -> Above 4GB MMIO BIOS assignment` 改成 `Enab'le'd`
 + ...
 > 其他的bios配置 看个人爱好。比如我改了功耗墙到 150W。内存的xmp没啥用，开不开也最高到2666.
 
