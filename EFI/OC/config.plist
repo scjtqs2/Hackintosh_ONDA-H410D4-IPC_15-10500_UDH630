@@ -896,7 +896,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>igfxonln=1</string>
+				<string>igfxonln=1 -v</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -987,9 +987,9 @@
 			<key>SystemProductName</key>
 			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C07WPUY1JYVX</string>
+			<string>C07XR9Y4JYVX</string>
 			<key>SystemUUID</key>
-			<string>B348D6BE-EC09-49D0-9CD9-5F5A0AFAE071</string>
+			<string>043445C1-FFB7-4460-855E-7FE5006919A4</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -998,11 +998,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C078195014NKXPGFB</string>
+			<string>C07848609J9KXPG1F</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1801</integer>
 			<key>ROM</key>
-			<data>UDJ1drJ+</data>
+			<data>6uZnaRmk</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1010,9 +1010,9 @@
 			<key>SystemProductName</key>
 			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C07WPUY1JYVX</string>
+			<string>C07XR9Y4JYVX</string>
 			<key>SystemUUID</key>
-			<string>B348D6BE-EC09-49D0-9CD9-5F5A0AFAE071</string>
+			<string>043445C1-FFB7-4460-855E-7FE5006919A4</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1023,13 +1023,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>f//f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C078195014NKXPGFB</string>
+			<string>C07848609J9KXPG1F</string>
 			<key>ROM</key>
-			<data>UDJ1drJ+</data>
+			<data>6uZnaRmk</data>
 			<key>SystemSerialNumber</key>
-			<string>C07WPUY1JYVX</string>
+			<string>C07XR9Y4JYVX</string>
 			<key>SystemUUID</key>
-			<string>B348D6BE-EC09-49D0-9CD9-5F5A0AFAE071</string>
+			<string>043445C1-FFB7-4460-855E-7FE5006919A4</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
