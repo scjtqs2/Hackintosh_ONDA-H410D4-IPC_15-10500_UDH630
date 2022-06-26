@@ -219,13 +219,15 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>BwCbPg==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
 				<key>enable-lspcon-support</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-has-lspcon</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
@@ -234,13 +236,13 @@
 				<key>framebuffer-con2-has-lspcon</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type</key>
-				<data>AAgAAA==</data>
+				<data>AgAAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -841,7 +843,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>alcid=5 -v</string>
+				<string>alcid=5</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -910,9 +912,9 @@
 			<key>ARTFrequency</key>
 			<integer>0</integer>
 			<key>BoardProduct</key>
-			<string>Mac-CFF7D910A743CAAF</string>
+			<string>Mac-7BA5B2DFE22DDD8C</string>
 			<key>BoardRevision</key>
-			<data>Aw==</data>
+			<data>AQ==</data>
 			<key>DevicePathsSupported</key>
 			<integer>0</integer>
 			<key>FSBFrequency</key>
@@ -924,17 +926,17 @@
 			<key>SmcBranch</key>
 			<data></data>
 			<key>SmcPlatform</key>
-			<data>ajE4NQAAAAA=</data>
+			<data>ajE3NAAAAAA=</data>
 			<key>SmcRevision</key>
 			<data></data>
 			<key>StartupPowerEvents</key>
 			<integer>0</integer>
 			<key>SystemProductName</key>
-			<string>iMac20,1</string>
+			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02D8MY4PN5T</string>
+			<string>C07WN0ZXJYVX</string>
 			<key>SystemUUID</key>
-			<string>68696320-6829-413E-9674-327A5EFF0A62</string>
+			<string>BC46E663-CA8A-40ED-B9A9-37505346C178</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -943,38 +945,38 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02034501GUPHC1A8</string>
+			<string>C07818802GUKXPGCB</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1801</integer>
 			<key>ROM</key>
-			<data>X2xw78xj</data>
+			<data>M5/+RsF4</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac20,1</string>
+			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02D8MY4PN5T</string>
+			<string>C07WN0ZXJYVX</string>
 			<key>SystemUUID</key>
-			<string>68696320-6829-413E-9674-327A5EFF0A62</string>
+			<string>BC46E663-CA8A-40ED-B9A9-37505346C178</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
-			<string>Mac-CFF7D910A743CAAF</string>
+			<string>Mac-7BA5B2DFE22DDD8C</string>
 			<key>FirmwareFeatures</key>
-			<data>ZvCz/wgAAAA=</data>
+			<data>ZvSP/QgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>/////wgAAAA=</data>
+			<data>f//f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02034501GUPHC1A8</string>
+			<string>C07818802GUKXPGCB</string>
 			<key>ROM</key>
-			<data>X2xw78xj</data>
+			<data>M5/+RsF4</data>
 			<key>SystemSerialNumber</key>
-			<string>C02D8MY4PN5T</string>
+			<string>C07WN0ZXJYVX</string>
 			<key>SystemUUID</key>
-			<string>68696320-6829-413E-9674-327A5EFF0A62</string>
+			<string>BC46E663-CA8A-40ED-B9A9-37505346C178</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
