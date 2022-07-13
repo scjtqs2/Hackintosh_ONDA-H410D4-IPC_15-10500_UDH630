@@ -31,7 +31,7 @@
 
 
 ### opencore版本：
-0.8.1
+0.8.2
 
 ### macos版本：
 macOS Monterey
