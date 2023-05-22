@@ -32,11 +32,11 @@
 
 
 ### opencore版本：
-0.8.8
+0.9.2
 
 ### macos版本：
 macOS Ventura
-13.2
+13.4
 
 ### 说明
 已做USB定制：TypeC，USB3正常 不管你前置USB链接的是哪个口都可以完美使用！
