@@ -204,27 +204,7 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
-                <dict>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,29,0/0,0</string>
-                    <key>device_type</key>
-                    <string>Ethernet controller</string>
-                    <key>model</key>
-                    <string>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</string>
-                </dict>
-                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
-                <dict>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,31,3</string>
-                    <key>device_type</key>
-                    <string>Audio device</string>
-                    <key>layout-id</key>
-                    <integer>5</integer>
-                    <key>model</key>
-                    <string>Reaitek ALC662</string>
-                </dict>
-                <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+                <key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
                     <data>BwCbPg==</data>
@@ -269,6 +249,57 @@
                     <key>model</key>
                     <string>Intel UHD Graphics 630</string>
                 </dict>
+                <key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,29,0/0,0</string>
+                    <key>device_type</key>
+                    <string>Ethernet controller</string>
+                    <key>model</key>
+                    <string>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,3</string>
+                    <key>device_type</key>
+                    <string>Audio device</string>
+                    <key>layout-id</key>
+                    <integer>5</integer>
+                    <key>model</key>
+                    <string>Reaitek ALC662</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+                <dict>
+                    <key>AAPL,ig-platform-id</key>
+                    <data>BwCbPg==</data>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,2,0</string>
+                    <key>device-id</key>
+                    <data>yJsAAA==</data>
+                    <key>device_type</key>
+                    <string>VGA compatible controller</string>
+                    <key>enable-hdmi-dividers-fix</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-hdmi20</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-lspcon-support</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-alldata</key>
+                    <data>AgQKAAAIAADHAwAA</data>
+                    <key>framebuffer-con1-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con3-has-lspcon</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-patch-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-unifiedmem</key>
+                    <data>AAAAgA==</data>
+                    <key>hda-gfx</key>
+                    <string>onboard-1</string>
+                    <key>model</key>
+                    <string>Intel UHD Graphics 630</string>
+                </dict>
             </dict>
             <key>Delete</key>
             <dict/>
@@ -283,7 +314,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.3</string>
+                    <string>V1.6.5</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -301,7 +332,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0</string>
+                    <string>V1.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -319,7 +350,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0</string>
+                    <string>V1.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -337,7 +368,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0</string>
+                    <string>V1.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -355,7 +386,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.8</string>
+                    <string>V1.8.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -373,7 +404,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.3</string>
+                    <string>V1.6.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -427,7 +458,7 @@
                     <key>BundlePath</key>
                     <string>HibernationFixup.kext</string>
                     <key>Comment</key>
-                    <string>V1.4.7</string>
+                    <string>V1.4.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -499,7 +530,7 @@
                     <key>BundlePath</key>
                     <string>FeatureUnlock.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.2</string>
+                    <string>V1.1.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -608,6 +639,8 @@
                 <false/>
                 <key>DisableIoMapper</key>
                 <true/>
+                <key>DisableIoMapperMapping</key>
+                <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
@@ -1159,10 +1192,14 @@
                 <false/>
                 <key>ForceResolution</key>
                 <false/>
+                <key>GopBurstMode</key>
+                <false/>
                 <key>GopPassThrough</key>
                 <string>Disabled</string>
                 <key>IgnoreTextInGraphics</key>
                 <false/>
+                <key>InitialMode</key>
+                <string>Auto</string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>
@@ -1247,6 +1284,8 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
+                <key>ResizeUsePciRbIo</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
