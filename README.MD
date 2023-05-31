@@ -14,7 +14,7 @@
 | 机箱   | sktc tx03                                   |
 | 电源   | 尚巡 150W 华硕便携                                |
 | 散热   | sett intel 的1U纯铜散热（5D471）换了静音风扇             |
-| 声卡    | ALC662 (alcid=5) (听说新的主板声卡是ALC883了,alcid=7） |
+| 声卡    | ALC662 (alcid=5) (听说有的主板声卡是ALC883了,alcid=7） |
 
 ### bios 设置：
 + 关 `cfg lock` : `Advanced -> Power & Performance -> CPU - Power Management Control -> CPU Lock Configuration -> CFG Lock` 改成 `Disabled`
