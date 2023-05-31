@@ -4,17 +4,17 @@
 
 ### 我的电脑配置：
 
-| 硬件名称 | 型号                      |
-|------|-------------------------|
-| CPU  | i5-10500                |
-| 主板   | 昂达H410D4 IPC ITX主板      |
-| 内存   | 金士顿 32g 2666✖️2         |
-| 硬盘   | WD sn770 nvme 1T        |
-| 网卡   | Bcm94360cs2             |
-| 机箱   | sktc tx03               |
-| 电源   | 尚巡 150W 华硕便携            |
-| 散热   | sett intel 的1U纯铜散热（5D471） |
-| 声卡    | ALC662 (alcid=5) (听说新的主板声卡是ALC883了,alcid=7）|
+| 硬件名称 | 型号                                          |
+|------|---------------------------------------------|
+| CPU  | i5-10500                                    |
+| 主板   | 昂达H410D4 IPC ITX主板                          |
+| 内存   | 金士顿 32g 2666✖️2                             |
+| 硬盘   | WD sn770 nvme 1T                            |
+| 网卡   | Bcm94360cs2                                 |
+| 机箱   | sktc tx03                                   |
+| 电源   | 尚巡 150W 华硕便携                                |
+| 散热   | sett intel 的1U纯铜散热（5D471）换了静音风扇             |
+| 声卡    | ALC662 (alcid=5) (听说新的主板声卡是ALC883了,alcid=7） |
 
 ### bios 设置：
 + 关 `cfg lock` : `Advanced -> Power & Performance -> CPU - Power Management Control -> CPU Lock Configuration -> CFG Lock` 改成 `Disabled`
@@ -65,5 +65,5 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
     多系统在启动选择界面，先使用键盘移动到要启动的项，然后按Ctrl+Enter(回车键)进入系统，下次重启后默认就选中该项了
 
 ### 留影
-![](images/20220625_101040.jpg)
+![](images/20230527_102645.jpg)
 
