@@ -16,6 +16,11 @@
 | 散热   | sett intel 的1U纯铜散热（5D471）换了静音风扇             |
 | 声卡    | ALC662 (alcid=5) (听说有的主板声卡是ALC883了,alcid=7） |
 
+### 关于在 macos 14(Sonoma) 下启动苹果原生的博通网卡
+1. 使用本仓库最新版本的efi配置
+2. 去[OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/latest) 下载最新版本的oclp并安装
+3.  打开oclp，点击`Post-Install Root Patch`，然后点击`Revert Root Patches`，不用重启，完成后，再点击`Start Root Patching`。点击后进行重启，wifi就可以用了！
+
 ### bios 设置：
 + 关 `cfg lock` : `Advanced -> Power & Performance -> CPU - Power Management Control -> CPU Lock Configuration -> CFG Lock` 改成 `Disabled`
 + 关 `csm`：`Advanced -> CSM Configuration -> CSM Support` 改成 `Disabled`
@@ -37,6 +42,8 @@
 ### macos版本：
 macOS Ventura
 13.6
+macos Sonoma
+14.0
 
 ### 说明
 已做USB定制：TypeC，USB3正常 不管你前置USB链接的是哪个口都可以完美使用！
