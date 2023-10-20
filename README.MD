@@ -19,7 +19,7 @@
 ### 关于在 macos 14(Sonoma) 下启动苹果原生的博通网卡
 1. 使用本仓库最新版本的efi配置
 2. 去[OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/latest) 下载最新版本的oclp并安装
-3.  打开oclp，点击`Post-Install Root Patch`，然后点击`Revert Root Patches`，不用重启，完成后，再点击`Start Root Patching`。点击后进行重启，wifi就可以用了！
+3.  打开oclp，点击`Post-Install Root Patch`，点击`Start Root Patching`。点击后进行重启，wifi就可以用了！
 
 ### bios 设置：
 + 关 `cfg lock` : `Advanced -> Power & Performance -> CPU - Power Management Control -> CPU Lock Configuration -> CFG Lock` 改成 `Disabled`
