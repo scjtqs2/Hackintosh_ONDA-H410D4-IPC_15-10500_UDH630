@@ -1116,7 +1116,7 @@
                     <key>OCLP-Settings</key>
                     <string>-allow_fv -allow_amfi</string>
                     <key>OCLP-Version</key>
-                    <string>1.0.1</string>
+                    <string>1.1.0</string>
                     <key>revpatch</key>
                     <string>sbvmm</string>
                 </dict>
