@@ -1111,12 +1111,6 @@
                 </dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
-                    <key>OCLP-Model</key>
-                    <string>Macmini8,1</string>
-                    <key>OCLP-Settings</key>
-                    <string>-allow_fv -allow_amfi</string>
-                    <key>OCLP-Version</key>
-                    <string>1.1.0</string>
                     <key>revpatch</key>
                     <string>sbvmm</string>
                 </dict>
@@ -1143,14 +1137,6 @@
                 </array>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <array>
-                    <string>OCLP-Version</string>
-                    <string>OCLP-Model</string>
-                    <string>OCLP-Settings</string>
-                    <string>OCLP-Spoofed-SN</string>
-                    <string>OCLP-Spoofed-MLB</string>
-                    <string>revcpu</string>
-                    <string>revcpuname</string>
-                    <string>revblock</string>
                     <string>revpatch</string>
                     <string>rtc-blacklist</string>
                 </array>
