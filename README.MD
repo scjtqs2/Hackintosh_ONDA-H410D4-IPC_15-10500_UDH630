@@ -9,7 +9,7 @@
 | CPU  | i5-10500                                    |
 | 主板   | 昂达H410D4 IPC ITX主板                          |
 | 内存   | 金士顿 32g 2666✖️2                             |
-| 硬盘   | WD sn770 nvme 1T                            |
+| 硬盘   | Solidigm P44 pro nvme 2T                    |
 | 网卡   | Bcm94360cs2                                 |
 | 机箱   | sktc tx03                                   |
 | 电源   | 尚巡 150W 华硕便携                                |
