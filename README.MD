@@ -11,28 +11,33 @@
 | 主板   | 昂达H410D4 IPC ITX主板                          |
 | 内存   | 金士顿 32g 2666✖️2                             |
 | 硬盘   | Solidigm P44 pro nvme 2T                    |
-| 网卡   | Intel AX210 WIFI6 (换掉了博通网卡，懒得再每次都打oclp补丁了）  |
+| 网卡   | Intel AX210 WIFI6   |
 | 机箱   | sktc tx03                                   |
 | 电源   | 尚巡 150W 华硕便携                                |
 | 散热   | sett intel 的1U纯铜散热（5D471）换了静音风扇             |
 | 声卡   | ALC662 (alcid=5) (听说有的主板声卡是ALC883了,alcid=7） |
 
-### 关于在 macos 14(Sonoma) 下启动苹果原生的博通网卡
+### 在macos 15 下启用intel原生wifi（非HeliPort+itlwm) (目前macos 26下只能走HeliPort+itlwm来驱动wifi，等oclp更新看看能不能解决wifi问题)
+1. 使用本仓库最新版本的efi配置，默认就是该配置。
+2. 下载[OCLP-Mod](https://github.com/laobamac/OCLP-Mod/releases)
+3. 运行OCLP-Mod 3.0.0。点击“安装驱动补丁”按钮，打上补丁就可以正常运行wifi了。目前intel网卡支持单方面的airdrop（只能发不能收）。
 
-1. 使用本仓库最新版本的efi配置
-2. 使用opencore编辑器，进入Kernel\add，去掉intel的wifi和蓝牙驱动:`BlueToolFixup.kext`、`IntelBTPatcher.kext`、`IntelBluetoothFirmware.kext`、`AirportItlwm13.kext`、`AirportItlwm14.kext`
-3. 使用opencore编辑器，进入Kernel\add，打开oclp需要的博通wifi相关驱动：`IOSkywalkFamily.kext`、`IO80211FamilyLegacy.kext`、`IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext`、`AMFIPass.kext`、`AirportBrcmFixup.kext`
-4. 使用opencore编辑器，进入Kernel\block，打开`com.apple.iokit.IOSkywalkFamily`这个阻止项
-5. 使用opencore编辑器，进入NVRAM,找到uuid为 `7C436110-AB2A-4BBB-A880-FE41995C9F82`，修改 `csr-active-config`项为`03080000`。修改 `boot-args`项为`ipc_control_port_options=0 -nokcmismatchpanic igfxonln=1 amfi=0x80 -v`
-6. 使用opencore编辑器，进入misc\security，修改`SecureBootModel`为 `Disabled`
-7. 去[OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/latest) 下载最新版本的oclp并安装 
-8. 打开oclp，点击`Post-Install Root Patch`，点击`Start Root Patching`。点击后进行重启，wifi就可以用了！
+### ~~关于在 macos 14(Sonoma) 下启动苹果原生的博通网卡~~
 
-### 关于intel wifi 的蓝牙睡眠唤醒相关问题
-> 没有遇到相关问题请忽略
+1. ~~使用本仓库最新版本的efi配置~~
+2. ~~使用opencore编辑器，进入Kernel\add，去掉intel的wifi和蓝牙驱动:`BlueToolFixup.kext`、`IntelBTPatcher.kext`、`IntelBluetoothFirmware.kext`、`AirportItlwm13.kext`、`AirportItlwm14.kext`~~
+3. ~~使用opencore编辑器，进入Kernel\add，打开oclp需要的博通wifi相关驱动：`IOSkywalkFamily.kext`、`IO80211FamilyLegacy.kext`、`IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext`、`AMFIPass.kext`、`AirportBrcmFixup.kext`~~
+4. ~~使用opencore编辑器，进入Kernel\block，打开`com.apple.iokit.IOSkywalkFamily`这个阻止项~~
+5. ~~使用opencore编辑器，进入NVRAM,找到uuid为 `7C436110-AB2A-4BBB-A880-FE41995C9F82`，修改 `csr-active-config`项为`03080000`。修改 `boot-args`项为`ipc_control_port_options=0 -nokcmismatchpanic igfxonln=1 amfi=0x80 -v`~~
+6. ~~使用opencore编辑器，进入misc\security，修改`SecureBootModel`为 `Disabled`~~
+7. ~~去[OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/latest) 下载最新版本的oclp并安装 ~~
+8. ~~打开oclp，点击`Post-Install Root Patch`，点击`Start Root Patching`。点击后进行重启，wifi就可以用了！~~
 
-1. 下载 [bluesnooze](https://github.com/stefansundin/bluesnooze/releases)
-2. ![img.png](images/img.png)
+### ~~关于intel wifi 的蓝牙睡眠唤醒相关问题~~
+> ~~没有遇到相关问题请忽略~~
+
+1. ~~下载 [bluesnooze](https://github.com/stefansundin/bluesnooze/releases)~~
+2. ~~![img.png](images/img.png)~~
 
 
 ### bios 设置：
@@ -64,15 +69,11 @@
 
 ### opencore版本：
 
-1.0.0
+1.0.5
 
 ### macos版本：
-
-macOS Ventura
-13.6
-
-macos Sonoma
-14.5
+macos Sequoia
+15.7
 
 ### 说明
 
