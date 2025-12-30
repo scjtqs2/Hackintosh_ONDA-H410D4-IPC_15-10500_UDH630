@@ -11,16 +11,23 @@
 | 主板   | 昂达H410D4 IPC ITX主板                          |
 | 内存   | 金士顿 32g 2666✖️2                             |
 | 硬盘   | Solidigm P44 pro nvme 2T                    |
-| 网卡   | Intel AX210 WIFI6   |
+| 网卡   | DW1830   |
 | 机箱   | sktc tx03                                   |
 | 电源   | 尚巡 150W 华硕便携                                |
 | 散热   | sett intel 的1U纯铜散热（5D471）换了静音风扇             |
 | 声卡   | ALC662 (alcid=5) (听说有的主板声卡是ALC883了,alcid=7） |
 
-### 在macos 15 下启用intel原生wifi（非HeliPort+itlwm) (目前macos 26下只能走HeliPort+itlwm来驱动wifi，等oclp更新看看能不能解决wifi问题)
-1. 使用本仓库最新版本的efi配置，默认就是该配置。
-2. 下载[OCLP-Mod](https://github.com/laobamac/OCLP-Mod/releases)
-3. 运行OCLP-Mod 3.0.0。点击“安装驱动补丁”按钮，打上补丁就可以正常运行wifi了。目前intel网卡支持单方面的airdrop（只能发不能收）。
+### 更新到macos Tahose 26.2 已支持bcm的wifi
+1. 更新到了acpi的usb定制。
+2. 用回了bcm的wifi卡，oclp-mod支持了macos 26下的wifi补丁。
+3. sip使用了`FF0F0000`,不关闭amfi。避免了大量app崩溃问题。
+4. 使用 OCLP-Mod 3.1.2+ 版本进行打补丁操作。
+5. 安装系统完成后，一定要运行 [OCLP-Mod](https://github.com/laobamac/OCLP-Mod/releases) 打补丁，否则wifi和音频不正常。
+
+### ~~在macos 15 下启用intel原生wifi（非HeliPort+itlwm) (目前macos 26下只能走HeliPort+itlwm来驱动wifi，等oclp更新看看能不能解决wifi问题)~~
+1. ~~使用本仓库最新版本的efi配置，默认就是该配置。~~
+2. ~~下载[OCLP-Mod](https://github.com/laobamac/OCLP-Mod/releases)~~
+3. ~~运行OCLP-Mod 3.0.0。点击“安装驱动补丁”按钮，打上补丁就可以正常运行wifi了。目前intel网卡支持单方面的airdrop（只能发不能收）。~~
 
 ### ~~关于在 macos 14(Sonoma) 下启动苹果原生的博通网卡~~
 
