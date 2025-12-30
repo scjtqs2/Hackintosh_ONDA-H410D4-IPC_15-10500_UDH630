@@ -76,11 +76,10 @@
 
 ### opencore版本：
 
-1.0.5
+1.0.6
 
 ### macos版本：
-macos Sequoia
-15.7
+macos Tahoe 26.2
 
 ### 说明
 
