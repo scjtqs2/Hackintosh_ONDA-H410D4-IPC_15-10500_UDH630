@@ -1191,12 +1191,6 @@
                 </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
-                    <key>##boot-args</key>
-                    <string>igfxonln=1 -wegnoegpu agdpmod=pikera -cdfon igfxhdmidivs=1  -igfxmpc -v</string>
-                    <key>##csr-active-config</key>
-                    <data>AAAAAA==</data>
-                    <key>#boot-args</key>
-                    <string>igfxonln=1 -wegnoegpu agdpmod=pikera -v</string>
                     <key>ForceDisplayRotationInEFI</key>
                     <integer>0</integer>
                     <key>SystemAudioVolume</key>
@@ -1206,9 +1200,9 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>-v igfxonln=1 ipc_control_port_options=0 brcmfx-country=CN -amfipassbeta -brcmfxbeta</string>
+                    <string>-v igfxonln=1 ipc_control_port_options=0 brcmfx-country=CN -amfipassbeta</string>
                     <key>csr-active-config</key>
-                    <data>/w8AAA==</data>
+                    <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
                     <string>Zh-Hans:252</string>
                     <key>run-efi-updater</key>
@@ -1280,7 +1274,7 @@
                 </array>
             </dict>
             <key>WriteFlash</key>
-            <false/>
+            <true/>
         </dict>
         <key>PlatformInfo</key>
         <dict>
